@@ -22,10 +22,6 @@ function domains(p, a, n) {
   return newDomain;
 }
 
-function capFirst(str) {
-  return ` ${str.charAt(0).toUpperCase() + str.slice(1)}\n`;
-}
-
 function addDomains(nD) {
   for (let i = 0; i < nD.length; i++) {
     document.querySelector("#domain").innerHTML += `${nD[i]
